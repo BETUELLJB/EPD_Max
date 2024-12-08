@@ -1,0 +1,7 @@
+2024-12-02 02:50:58 - ERROR - Sem conexão com a Internet ou erro ao conectar ao servidor IMAP.: [Errno 11001] getaddrinfo failed - [B:\Estudos\Projetos\Python\Max\max\pages\Email\recebido.py:187]
+2024-12-02 02:53:03 - ERROR - Erro ao receber emails do servidor: [Errno 11001] getaddrinfo failed - [B:\Estudos\Projetos\Python\Max\max\pages\Email\recebido.py:354]
+2024-12-02 02:54:33 - ERROR - Erro ao receber emails do servidor: [Errno 11001] getaddrinfo failed - [B:\Estudos\Projetos\Python\Max\max\pages\Email\recebido.py:354]
+2024-12-02 02:56:12 - ERROR - Erro ao receber emails do servidor: [Errno 11001] getaddrinfo failed - [B:\Estudos\Projetos\Python\Max\max\pages\Email\recebido.py:354]
+2024-12-02 02:56:35 - ERROR - Erro ao receber emails do servidor: [Errno 11001] getaddrinfo failed - [B:\Estudos\Projetos\Python\Max\max\pages\Email\recebido.py:354]
+2024-12-02 02:58:12 - ERROR - Erro ao receber emails do servidor: [Errno 11001] getaddrinfo failed - [B:\Estudos\Projetos\Python\Max\max\pages\Email\recebido.py:354]
+2024-12-02 02:58:40 - ERROR - Erro ao receber emails do servidor: [Errno 11001] getaddrinfo failed - [B:\Estudos\Projetos\Python\Max\max\pages\Email\recebido.py:354]

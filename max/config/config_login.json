@@ -1,0 +1,14 @@
+{
+    "login": {
+        "usuario": {
+            "nome": "gAAAAABnTQMOZRm0-buRBlux3U9mAVNmu5CuIp4wvnG4Pl2L3roo2lDhBMje6zwHTzOMD9bsHeF9PsUcTUKaxJwchCrM3TJb3A==",
+            "senha": "gAAAAABnTQMbEH-SG2FoK3D8zjhWtIke5KAldxTMSFE_BF29r-phXjkzmcRixMz_dGD2jDH8qfdEktuYZeka-SFCYM7yBUkNJSH_q_CsS4nwdrmNTQ_nuregXK0bAy7e6_sH3B1A1JG_jEUx3eznq_SnwdYNCUwdmfbKCMKV37KOypt8Nq-EYKVftyZHNg6Ps1_jqzzC-qy-O3rLY8uPC2r8pMPG5KdChs-jnaiMKFD-78qb3nEifbzUNiqDqnMN03qactYrXK6D4T5WBHoEb71vtbJCmW6IvKb3ktXtGzqt5SxK1hQGwP8=",
+            "email": null
+        },
+        "ultimo_acesso": "2024-12-02 02:45:15"
+    },
+    "preferencias": {},
+    "seguranca": {
+        "dois_fatores_ativo": "gAAAAABnTQMOFEWsR-EV-A4M-1KYL2uCeDfROd2tHGDwO-JUqzT6F4RswTRfAP11sPsPeemUBUvuodejhbLW4jWoi2qt5Vf1wA=="
+    }
+}

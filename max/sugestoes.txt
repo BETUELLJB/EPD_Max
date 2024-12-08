@@ -1,0 +1,32 @@
+Codigo pra codificar tudo no arquivo json:
+def salvar_config_login(self, config):
+    """Criptografa e salva o arquivo de configuração de login."""
+    fernet = Fernet(self.config_key.encode())
+    
+    # Serializar e criptografar todo o conteúdo
+    dados_json = json.dumps(config).encode("utf-8")
+    dados_encriptados = fernet.encrypt(dados_json)
+    
+    # Converter para base64 para manter compatibilidade de armazenamento
+    with open(self.config_login, "w") as file:
+        file.write(dados_encriptados.decode("utf-8"))
+
+        
+******************************************************************************************************************
+Codigo pra decodificar tudo no arquivo json:
+def carregar_config_login(self):
+    """Descriptografa e carrega o arquivo de configuração de login."""
+    if not os.path.exists(self.config_login):
+        raise FileNotFoundError("Arquivo de configuração não encontrado. Verifique ou crie um novo arquivo.")
+
+    with open(self.config_login, "r") as file:
+        dados_encriptados = file.read().encode("utf-8")
+
+    fernet = Fernet(self.config_key.encode())
+
+    try:
+        # Descriptografar e decodificar o JSON
+        dados_json = fernet.decrypt(dados_encriptados).decode("utf-8")
+        return json.loads(dados_json)
+    except Exception as e:
+        raise ValueError(f"Erro ao descriptografar os dados: {e}")

@@ -1,0 +1,5 @@
+
+# OpenWeatherMap:    S2064f304fa63035d64582f37aa73a65a
+# clima tempo   :    5960654e04ac9b12d60cb2cf5e43b7e0
+# HG Console    :    b1b7307c
+# google_api_key = "AIzaSyD339SNnqvBhRpxCWL9Ln5WVcOQzQptufY"

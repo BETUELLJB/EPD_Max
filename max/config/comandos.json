@@ -1,0 +1,110 @@
+{
+    "fechar navegador chrome": [
+        "fechar o navegador",
+        "encerrar o navegador",
+        "feche o navegador",
+        "fecha o Chrome",
+        "pare o navegador"
+    ],
+    "abrir navegador chrome": [
+        "abra o navegador",
+        "iniciar o navegador",
+        "abrir o Chrome",
+        "começar o navegador"
+    ],
+    "reiniciar computador": [
+        "reinicie o computador",
+        "reiniciar o sistema",
+        "dar reboot na máquina",
+        "reiniciar o pc"
+    ],
+    "desligar computador": [
+        "desligue o computador",
+        "encerrar o sistema",
+        "desligar o pc",
+        "apagar a máquina"
+    ],
+    "monitorar cpu": [
+        "ver uso de cpu",
+        "monitorar cpu",
+        "uso da cpu",
+        "como está o processador"
+    ],
+    "monitorar memoria": [
+        "ver uso de memória",
+        "monitorar memória",
+        "uso da memória",
+        "quanta memória livre"
+    ],
+    "monitorar bateria": [
+        "ver nível da bateria",
+        "monitorar bateria",
+        "status da bateria",
+        "quanto tempo de bateria"
+    ],
+    "abrir e-mail": [
+        "abrir e-mail",
+        "abrir a caixa de e-mails",
+        "abrir painel de e-mails"
+    ],
+    "abrir tarefas": [
+        "abrir tarefas",
+        "ver minhas tarefas",
+        "abrir calendário"
+    ],
+    "abrir configurações": [
+        "abrir configurações",
+        "ajustes do sistema",
+        "configurar sistema"
+    ],
+    "fechar e-mail": [
+        "fechar e-mail",
+        "fechar a caixa de e-mails",
+        "encerrar painel de e-mails"
+    ],
+    "abrir firefox": [
+        "abrir firefox",
+        "navegador firefox",
+        "iniciar firefox"
+    ],
+    "abrir bloco de notas": [
+        "abrir bloco de notas",
+        "abrir notepad",
+        "iniciar bloco de notas",
+        "bloco de notas"
+    ],
+    "abrir calculadora": [
+        "abrir calculadora",
+        "iniciar calculadora",
+        "abrir app de calculadora"
+    ],
+    "fechar firefox": [
+        "fechar firefox",
+        "encerrar firefox",
+        "parar firefox"
+    ],
+    "fechar bloco de notas": [
+        "fechar bloco de notas",
+        "fechar notepad",
+        "encerrar bloco de notas"
+    ],
+    "minimizar janelas": [
+        "minimizar tudo",
+        "minimizar janelas",
+        "esconder todas as janelas"
+    ],
+    "bom dia":[
+        "bom dia",
+        "bom dia max"
+        
+    ],
+    "boa tarde":[
+        "boa tarde",
+        "boa tarde max"
+        
+    ],
+    "boa noite":[
+        "boa noite",
+        "boa noite"
+    ]
+}

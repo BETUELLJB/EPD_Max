@@ -1,0 +1,57 @@
+{
+    "comandos": [],
+    "Maputo": {
+        "id": "N/A",
+        "cidade": "Maputo",
+        "temperatura": 28.29,
+        "descricao": 1000,
+        "data_hora": "2024-11-29 13:01:05",
+        "api": "Tomorrow.io",
+        "data_gravacao": "29-11-2024 13:01:14"
+    },
+    "Beira": {
+        "id": "N/A",
+        "cidade": "Beira",
+        "temperatura": 27.31,
+        "descricao": 1100,
+        "data_hora": "2024-11-29 13:01:06",
+        "api": "Tomorrow.io",
+        "data_gravacao": "29-11-2024 13:01:14"
+    },
+    "Nampula": {
+        "id": "N/A",
+        "cidade": "Nampula",
+        "temperatura": 28.19,
+        "descricao": 4200,
+        "data_hora": "2024-11-29 13:01:08",
+        "api": "Tomorrow.io",
+        "data_gravacao": "29-11-2024 13:01:14"
+    },
+    "Chimoio": {
+        "id": "N/A",
+        "cidade": "Chimoio",
+        "temperatura": 22.38,
+        "descricao": 1001,
+        "data_hora": "2024-11-29 13:01:10",
+        "api": "Tomorrow.io",
+        "data_gravacao": "29-11-2024 13:01:14"
+    },
+    "Quelimane": {
+        "id": "N/A",
+        "cidade": "Quelimane",
+        "temperatura": 25.63,
+        "descricao": 4001,
+        "data_hora": "2024-11-29 13:01:12",
+        "api": "Tomorrow.io",
+        "data_gravacao": "29-11-2024 13:01:14"
+    },
+    "Xai-xai": {
+        "id": "N/A",
+        "cidade": "Xai-xai",
+        "temperatura": 25.75,
+        "descricao": 1100,
+        "data_hora": "2024-11-29 13:01:14",
+        "api": "Tomorrow.io",
+        "data_gravacao": "29-11-2024 13:01:14"
+    }
+}

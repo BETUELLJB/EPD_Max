@@ -1,0 +1,67 @@
+Com o servidor Python já em execução no teu computador na porta 8080, podes proceder da seguinte forma para testar o acesso:
+
+---
+
+### **1. Identificar o IP Local**
+1. **Abrir o Terminal no Windows**:
+   Usa o comando abaixo para descobrir o IP local do teu computador na rede:
+   ```bash
+   ipconfig
+   ```
+   - Procura pela secção correspondente à tua conexão de rede (Wi-Fi ou Ethernet).
+   - Localiza o **"Endereço IPv4"**. Por exemplo: `192.168.1.5`.
+
+---
+
+### **2. Testar o Acesso no Próprio Computador**
+- Abre um navegador ou usa o `curl` no terminal para aceder ao servidor:
+  ```bash
+  curl http://127.0.0.1:8080
+  ```
+  ou
+  ```bash
+  curl http://<teu-IP-local>:8080
+  ```
+  Substitui `<teu-IP-local>` pelo endereço obtido no passo anterior (ex.: `192.168.1.5`).
+
+- No navegador, podes simplesmente abrir:
+  ```
+  http://127.0.0.1:8080
+  ```
+  ou
+  ```
+  http://<teu-IP-local>:8080
+  ```
+
+---
+
+### **3. Testar o Acesso de Outro Dispositivo na Rede**
+1. Certifica-te de que outro dispositivo (computador, smartphone, etc.) está conectado à mesma rede local (Wi-Fi ou Ethernet).
+2. No navegador do outro dispositivo, insere:
+   ```
+   http://<teu-IP-local>:8080
+   ```
+3. Ou usa `curl` num terminal:
+   ```bash
+   curl http://<teu-IP-local>:8080
+   ```
+
+---
+
+### **4. Confirmar os Resultados**
+- **Se conseguires ver os ficheiros na pasta onde o servidor foi iniciado**, significa que o acesso está a funcionar corretamente.
+- **Se não funcionar**:
+  - Certifica-te de que o **Firewall do Windows** permite conexões para Python (o Windows pode ter bloqueado a porta 8080 automaticamente).
+  - Verifica que o servidor foi iniciado usando `0.0.0.0` para escutar todas as interfaces:
+    ```bash
+    python -m http.server 8080 --bind 0.0.0.0
+    ```
+
+---
+
+### **5. Fazer Simulações de Intrusos**
+Com o servidor acessível, podes usar este ambiente para testar:
+- **IPs autorizados e não autorizados**: Executar scripts de acesso simulados usando outro dispositivo.
+- **Monitoramento de Conexões**: Ver no terminal do servidor quem está a aceder (o Python HTTP server exibe os IPs dos clientes conectados).
+
+Se precisares de apoio com os próximos passos, é só dizer!
